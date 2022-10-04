@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace SistemaInventario.AccesoDatos.Repositorio
 {
-    public class UnidadTrabajo
+    public class UnidadTrabajo : IUnidadTrabajo
     {
         private readonly ApplicationDbContext _db;
         public IBodegaRepositorio Bodega { get; private set; }
@@ -17,6 +17,16 @@ namespace SistemaInventario.AccesoDatos.Repositorio
         {
             _db = db;
             Bodega = new BodegaRepositorio(_db);  // Inicializamos
+        }
+
+        public void Guardar()
+        {
+            _db.SaveChanges();
+        }
+
+        public void Dispose()
+        {
+           _db.Dispose();
         }
     }
 }
