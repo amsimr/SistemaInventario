@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SistemaInventario.AccesoDatos.Repositorio.IRepositorio
 {
-    public interface IRepositorio<T> where T : class
+    public interface IRepositorio<T> where T :class
     {
         T Obtener(int id);
         IEnumerable<T> ObtenerTodos(

@@ -62,6 +62,8 @@ namespace SistemaInventario.AccesoDatos.Repositorio
 
 
         // Obtener Todos
+
+        
         public IEnumerable<T> ObtenerTodos(Expression<Func<T, bool>> filter = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string incluirPropiedades = null)
         {
             IQueryable<T> query = dbSet;
@@ -87,6 +89,8 @@ namespace SistemaInventario.AccesoDatos.Repositorio
             return query.ToList();
 
         }
+        
+
         // Remover entidad por ID
         public void Remover(int id)
         {
