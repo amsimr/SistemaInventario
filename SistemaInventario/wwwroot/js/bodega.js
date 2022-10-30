@@ -12,21 +12,30 @@ function loadDataTable() {
         "columns": [
             { "data": "nombre", "width": "20%" },
             { "data": "descripcion", "width": "40%" },
-            { "data": "estado", "width": "20%" },
             {
-                "data": "Id",
+                "data": "estado",
+                "render": function (data) {
+                    if (data == true) {
+                        return "Activo";
+                    }
+                    else {
+                        return "Inactivo";
+                    }
+                }, "width": "20%"
+            },
+            {
+                "data": "id",
                 "render": function (data) {
                     return `
-
                         <div class="text-center">
-                            <a href="Admin/Bodega/Upsert/${data}" class="btn btn-success text-white" style="cursor:pointer">
+                            <a href="/Admin/Bodega/Upsert/${data}" class="btn btn-success text-white" style="cursor:pointer">
                                 <i class="fas fa-edit"></i>
                             </a>
                             <a class="btn btn-danger text-white" style="cursor:pointer">
                                 <i class="fas fa-trash"></i>
                             </a>
-                    </div>
-                           `; 
+                        </div>
+                        `;
                 }, "width": "20%"
             }
         ]

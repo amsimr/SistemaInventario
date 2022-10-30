@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SistemaInventario.AccesoDatos.Repositorio.IRepositorio;
+using SistemaInventario.Modelos;
 
 namespace SistemaInventario.Areas.Admin.Controllers
 {
@@ -14,11 +15,46 @@ namespace SistemaInventario.Areas.Admin.Controllers
         }
 
 
+        // Vista Index
 
         public IActionResult Index()
         {
             return View();
         }
+
+
+
+        // Metodo Upsert
+
+        public IActionResult Upsert(int? id)
+        {
+            Bodega bodega = new Bodega();
+            if (id == null)
+            {
+                // Esto es para crear un nuevo registro
+                return View(bodega);
+            }
+            // Esto es para actualizar
+            bodega = _unidadTrabajo.Bodega.Obtener(id.GetValueOrDefault());
+            if (bodega == null)
+            {
+                return NotFound();
+            }
+
+            return View(bodega);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         #region API
