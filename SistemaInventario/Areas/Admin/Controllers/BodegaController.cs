@@ -47,7 +47,25 @@ namespace SistemaInventario.Areas.Admin.Controllers
 
 
 
-
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Upsert(Bodega bodega)
+        {
+            if (ModelState.IsValid)
+            {
+                if (bodega.Id == 0)
+                {
+                    _unidadTrabajo.Bodega.Agregar(bodega);
+                }
+                else
+                {
+                    _unidadTrabajo.Bodega.Actualizar(bodega);
+                }
+                _unidadTrabajo.Guardar();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(bodega);
+        }
 
 
 
@@ -63,6 +81,20 @@ namespace SistemaInventario.Areas.Admin.Controllers
         {
             var todos = _unidadTrabajo.Bodega.ObtenerTodos();
             return Json(new { data = todos });
+        }
+
+
+        [HttpDelete]
+        public IActionResult Delete(int id)
+        {
+            var bodegaDb = _unidadTrabajo.Bodega.Obtener(id);
+            if (bodegaDb == null)
+            {
+                return Json(new { success = false, message = "Error al borrar" });
+            }
+            _unidadTrabajo.Bodega.Remover(bodegaDb);
+            _unidadTrabajo.Guardar();
+            return Json(new { success = true, message = "Borrado exitosamente" });
         }
 
         #endregion
