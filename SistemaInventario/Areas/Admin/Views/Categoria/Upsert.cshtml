@@ -2,6 +2,17 @@
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
+    @if (Model.Id != 0)
+    {
+        // Actualizar
+        ViewData["Title"] = "Actualizar Categoria";
+
+    }
+    else
+    {
+        ViewData["Title"] = "Crear Categoria";
+
+    }
     var titulo = "Crear Categoria";
 }
 
