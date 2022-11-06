@@ -567,3 +567,5 @@ H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\SistemaInve
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\SistemaInventario\obj\Debug\net6.0\SistemaInventario.pdb
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\SistemaInventario\obj\Debug\net6.0\SistemaInventario.genruntimeconfig.cache
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\SistemaInventario\obj\Debug\net6.0\ref\SistemaInventario.dll
+H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\SistemaInventario\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\SistemaInventario\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
