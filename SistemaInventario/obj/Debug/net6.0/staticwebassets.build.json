@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dOBKg0504rRExJVTLTb7ZS5yTf6Bz2hLosiRKn8ba8o=",
+  "Hash": "49fnmPgVu5Xc+pkwmqAXVFXP5z8MX9bDVxe4Rd1DHXE=",
   "Source": "SistemaInventario",
   "BasePath": "_content/SistemaInventario",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\productos\\b0954540-694d-4002-89fa-7bd0c077ea02.png",
+      "SourceId": "SistemaInventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario\\wwwroot\\",
+      "BasePath": "_content/SistemaInventario",
+      "RelativePath": "imagenes/productos/b0954540-694d-4002-89fa-7bd0c077ea02.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\productos\\b0954540-694d-4002-89fa-7bd0c077ea02.png"
     },
     {
       "Identity": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\bodega.js",

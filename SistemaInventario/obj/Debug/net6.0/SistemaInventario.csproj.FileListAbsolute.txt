@@ -302,6 +302,7 @@ H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\SistemaInve
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\SistemaInventario\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\SistemaInventario\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\SistemaInventario\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\SistemaInventario\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\SistemaInventario\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\SistemaInventario\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\SistemaInventario\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
@@ -352,6 +353,7 @@ H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\SistemaInve
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\SistemaInventario\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\SistemaInventario\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\SistemaInventario\bin\Debug\net6.0\Newtonsoft.Json.dll
+H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\SistemaInventario\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\SistemaInventario\bin\Debug\net6.0\NuGet.Common.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\SistemaInventario\bin\Debug\net6.0\NuGet.Configuration.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\SistemaInventario\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
@@ -567,5 +569,3 @@ H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\SistemaInve
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\SistemaInventario\obj\Debug\net6.0\SistemaInventario.pdb
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\SistemaInventario\obj\Debug\net6.0\SistemaInventario.genruntimeconfig.cache
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\SistemaInventario\obj\Debug\net6.0\ref\SistemaInventario.dll
-H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\SistemaInventario\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
-H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\SistemaInventario\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
