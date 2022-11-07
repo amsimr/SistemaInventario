@@ -14,8 +14,16 @@ function loadDataTable() {
             { "data": "descripcion", "width": "15%" },
             { "data": "categoria.nombre", "width": "15%" },
             { "data": "marca.nombre", "width": "15%" },
-            { "data": "precio", "width": "15%" },
+            { "data": "precio", "width": "10%" },
+
+            {
+                "data": "imagenUrl",
+                "render": function (data) {
+                    return `<img src="${data}" height="50px" width="50px" style="border-radius: 50%;">`
+                }, "width": "10%",
+            },
             
+
             {
                 "data": "id",
                 "render": function (data) {
