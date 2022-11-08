@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario\\SistemaInventario.csproj": {}
+    "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario\\SistemaInventario.csproj": {}
   },
   "projects": {
-    "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj": {
+    "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj",
+        "projectUniqueName": "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj",
         "projectName": "SistemaInventario.AccesoDatos",
-        "projectPath": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj",
+        "projectPath": "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj",
         "packagesPath": "C:\\Users\\XC\\.nuget\\packages\\",
-        "outputPath": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.AccesoDatos\\obj\\",
+        "outputPath": "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario.AccesoDatos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\XC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj": {
-                "projectPath": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj"
+              "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj": {
+                "projectPath": "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj"
               },
-              "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
-                "projectPath": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj"
+              "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
+                "projectPath": "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj": {
+    "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj",
+        "projectUniqueName": "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj",
         "projectName": "SistemaInventario.Modelos",
-        "projectPath": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj",
+        "projectPath": "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj",
         "packagesPath": "C:\\Users\\XC\\.nuget\\packages\\",
-        "outputPath": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.Modelos\\obj\\",
+        "outputPath": "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario.Modelos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\XC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -141,14 +141,14 @@
         }
       }
     },
-    "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
+    "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj",
+        "projectUniqueName": "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj",
         "projectName": "SistemaInventario.Utilidades",
-        "projectPath": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj",
+        "projectPath": "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj",
         "packagesPath": "C:\\Users\\XC\\.nuget\\packages\\",
-        "outputPath": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.Utilidades\\obj\\",
+        "outputPath": "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario.Utilidades\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\XC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -196,14 +196,14 @@
         }
       }
     },
-    "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario\\SistemaInventario.csproj": {
+    "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario\\SistemaInventario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario\\SistemaInventario.csproj",
+        "projectUniqueName": "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario\\SistemaInventario.csproj",
         "projectName": "SistemaInventario",
-        "projectPath": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario\\SistemaInventario.csproj",
+        "projectPath": "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario\\SistemaInventario.csproj",
         "packagesPath": "C:\\Users\\XC\\.nuget\\packages\\",
-        "outputPath": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario\\obj\\",
+        "outputPath": "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\XC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -220,14 +220,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj": {
-                "projectPath": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj"
+              "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj": {
+                "projectPath": "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj"
               },
-              "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj": {
-                "projectPath": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj"
+              "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj": {
+                "projectPath": "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj"
               },
-              "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
-                "projectPath": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj"
+              "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
+                "projectPath": "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj"
               }
             }
           }

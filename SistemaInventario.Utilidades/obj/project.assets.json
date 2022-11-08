@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj",
+      "projectUniqueName": "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj",
       "projectName": "SistemaInventario.Utilidades",
-      "projectPath": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj",
+      "projectPath": "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj",
       "packagesPath": "C:\\Users\\XC\\.nuget\\packages\\",
-      "outputPath": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.Utilidades\\obj\\",
+      "outputPath": "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario.Utilidades\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\XC\\AppData\\Roaming\\NuGet\\NuGet.Config",

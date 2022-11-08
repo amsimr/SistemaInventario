@@ -6636,11 +6636,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj",
+      "projectUniqueName": "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj",
       "projectName": "SistemaInventario.Modelos",
-      "projectPath": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj",
+      "projectPath": "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj",
       "packagesPath": "C:\\Users\\XC\\.nuget\\packages\\",
-      "outputPath": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.Modelos\\obj\\",
+      "outputPath": "C:\\Users\\XC\\Source\\Repos\\SistemaInventario\\SistemaInventario.Modelos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\XC\\AppData\\Roaming\\NuGet\\NuGet.Config",
