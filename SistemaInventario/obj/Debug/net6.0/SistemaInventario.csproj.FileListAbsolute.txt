@@ -1468,6 +1468,7 @@ H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\n
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
@@ -1705,4 +1706,3 @@ H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\obj\Debug\n
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\obj\Debug\net6.0\SistemaInventario.pdb
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\obj\Debug\net6.0\SistemaInventario.genruntimeconfig.cache
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\obj\Debug\net6.0\ref\SistemaInventario.dll
-H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
