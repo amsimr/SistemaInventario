@@ -5,6 +5,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Text.Encodings.Web;
@@ -70,6 +71,13 @@ namespace SistemaInventario.Areas.Identity.Pages.Account
         /// </summary>
         public class InputModel
         {
+            [Required]
+            [StringLength(15, MinimumLength =4)]
+            [Display(Name ="UserName")]
+            public string UserName { get; set; }
+
+
+
             /// <summary>
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
             ///     directly from your code. This API may change or be removed in future releases.
@@ -97,6 +105,21 @@ namespace SistemaInventario.Areas.Identity.Pages.Account
             [Display(Name = "Confirm password")]
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
+
+
+            public string PhoneNumber { get; set; }
+
+
+            [Required]
+            public string Nombres { get; set; }
+
+            [Required]
+            public string Apellidos { get; set; }
+            public string Direccion { get; set; }
+            public string Ciudad { get; set; }
+            public string Pais { get; set; }                        
+            public string Role { get; set; }
+
         }
 
 
