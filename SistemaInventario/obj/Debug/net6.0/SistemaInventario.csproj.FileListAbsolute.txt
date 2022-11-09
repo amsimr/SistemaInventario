@@ -1164,8 +1164,6 @@ H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\n
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cors.dll
-H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
-H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\refs\Microsoft.AspNetCore.DataProtection.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
@@ -1243,20 +1241,16 @@ H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\n
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.Xml.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\refs\Microsoft.Extensions.DependencyInjection.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\refs\Microsoft.Extensions.Features.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Composite.dll
-H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Embedded.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Physical.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\refs\Microsoft.Extensions.FileSystemGlobbing.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\refs\Microsoft.Extensions.Hosting.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\refs\Microsoft.Extensions.Http.dll
-H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Core.dll
-H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Stores.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\refs\Microsoft.Extensions.Localization.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
@@ -1711,3 +1705,4 @@ H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\obj\Debug\n
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\obj\Debug\net6.0\SistemaInventario.pdb
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\obj\Debug\net6.0\SistemaInventario.genruntimeconfig.cache
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\obj\Debug\net6.0\ref\SistemaInventario.dll
+H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
