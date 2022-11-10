@@ -241,7 +241,7 @@ namespace SistemaInventario.Areas.Identity.Pages.Account
                         else
                         {
                             // Administrador esta registrando un nuevo usuario
-                            return RedirectToAction("Index", "User", new { Area = "Admin" });
+                            return RedirectToAction("Index", "Usuario", new { Area = "Admin" });
                         }
                         
                     }
