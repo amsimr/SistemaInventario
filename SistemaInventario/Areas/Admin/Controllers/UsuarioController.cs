@@ -39,6 +39,30 @@ namespace SistemaInventario.Areas.Admin.Controllers
         }
 
 
+        [HttpPost]
+        public IActionResult BloquearDesbloquear([FromBody] string id)
+        {
+            var usuario = _db.UsuarioAplicacions.FirstOrDefault(u => u.Id == id);
+            if (usuario == null)
+            {
+                return Json(new { success = false, message = "Error de Usuario" });
+            }
+
+
+            if (usuario.LockoutEnd !=null && usuario.LockoutEnd > DateTime.Now)
+            {
+                // Usuario Bloqueado
+                usuario.LockoutEnd = DateTime.Now;
+            }
+            else
+            {
+                usuario.LockoutEnd = DateTime.Now.AddYears(1000);
+            }
+            _db.SaveChanges();
+            return Json(new { success = true, message = "Operacion exitosa" });
+
+
+        }
 
 
 

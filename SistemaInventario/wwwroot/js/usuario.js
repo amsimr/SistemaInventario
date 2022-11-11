@@ -32,7 +32,7 @@ function loadDataTable() {
                         return `
                         <div class="text-center">
                             
-                            <a onclick=BloquearDesbloquear('${data.id}') class="btn btn-danger text-white" style="cursor:pointer">
+                            <a onclick=BloquearDesbloquear('${data.id}') class="btn btn-danger text-white" style="cursor:pointer; width:150px">
                                 <i class="fas fa-lock-open"></i> Desbloquear
                             </a>
                         </div>
@@ -43,7 +43,7 @@ function loadDataTable() {
                         return `
                         <div class="text-center">
                             
-                            <a onclick=BloquearDesbloquear('${data.id}') class="btn btn-success text-white" style="cursor:pointer">
+                            <a onclick=BloquearDesbloquear('${data.id}') class="btn btn-success text-white" style="cursor:pointer; width:150px">
                                 <i class="fas fa-lock"></i> Bloquear
                             </a>
                         </div>
@@ -58,18 +58,13 @@ function loadDataTable() {
 }
 
 
-function Delete(url) {
-    swal({
-        title: "Esta seguro que quiere Eliminar la Categoria?",
-        text: "Este registro no se podra recuperar",
-        icon: "warning",
-        buttons: true,
-        dangerMode: true
-    }).then((borrar) => {
-        if (borrar) {
+function BloquearDesbloquear(id) {
+    
             $.ajax({
-                type: "DELETE",
-                url: url,
+                type: "POST",
+                url: '/Admin/Usuario/BloquearDesbloquear',
+                data: JSON.stringify(id),
+                contentType: "application/json",
                 success: function (data) {
                     if (data.success) {
                         toastr.success(data.message);
@@ -79,7 +74,6 @@ function Delete(url) {
                         toastr.error(data.message);
                     }
                 }
-            });
-        }
-    });
+            });        
+    
 }
