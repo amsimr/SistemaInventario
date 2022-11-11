@@ -10,30 +10,49 @@ function loadDataTable() {
             "url": "/Admin/Usuario/ObtenerTodos"
         },
         "columns": [
-            { "data": "userName", "width": "20%" },
-            { "data": "nombres", "width": "20%" },
-            { "data": "apellidos", "width": "20%" },
-            { "data": "email", "width": "20%" },
-            { "data": "phoneNumber", "width": "20%" },
-            { "data": "role", "width": "20%" },
+            { "data": "userName", "width": "10%" },
+            { "data": "nombres", "width": "10%" },
+            { "data": "apellidos", "width": "10%" },
+            { "data": "email", "width": "15%" },
+            { "data": "phoneNumber", "width": "10%" },
+            { "data": "role", "width": "15%" },
 
 
             
-            //{
-            //    "data": "id",
-            //    "render": function (data) {
-            //        return `
-            //            <div class="text-center">
-            //                <a href="/Admin/Categoria/Upsert/${data}" class="btn btn-success text-white" style="cursor:pointer">
-            //                    <i class="fas fa-edit"></i>
-            //                </a>
-            //                <a onclick=Delete("/Admin/Categoria/Delete/${data}") class="btn btn-danger text-white" style="cursor:pointer">
-            //                    <i class="fas fa-trash"></i>
-            //                </a>
-            //            </div>
-            //            `;
-            //    }, "width": "20%"
-            //}
+            {
+                "data": {
+                    id: "id", lockoutEnd: "lockoutEnd"
+                },
+                "render": function (data) {
+                    var hoy = new Date().getTime();
+                    var bloqueo = new Date(data.lockoutEnd).getTime();
+
+                    if (bloqueo > hoy) {
+                        // Usuario esta bloqueado
+                        return `
+                        <div class="text-center">
+                            
+                            <a onclick=BloquearDesbloquear('${data.id}') class="btn btn-danger text-white" style="cursor:pointer">
+                                <i class="fas fa-lock-open"></i> Desbloquear
+                            </a>
+                        </div>
+                        `;
+
+                    } else {
+
+                        return `
+                        <div class="text-center">
+                            
+                            <a onclick=BloquearDesbloquear('${data.id}') class="btn btn-success text-white" style="cursor:pointer">
+                                <i class="fas fa-lock"></i> Bloquear
+                            </a>
+                        </div>
+                        `;
+
+                    }
+                    
+                }, "width": "30%"
+            }
         ]
     });
 }

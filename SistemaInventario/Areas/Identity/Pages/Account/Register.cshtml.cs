@@ -172,6 +172,7 @@ namespace SistemaInventario.Areas.Identity.Pages.Account
                     Direccion = Input.Direccion,
                     Ciudad = Input.Ciudad,
                     Pais = Input.Pais,
+                    PhoneNumber = Input.PhoneNumber,
                     Role = Input.Role
                 };
 
