@@ -21,7 +21,7 @@ namespace SistemaInventario.Utilidades
         public Task SendEmailAsync(string email, string subject, string htmlMessage)
         {
             var client = new SendGridClient(SendGridSecret);
-            var from = new EmailAddress("amsi.medinadr@gmail.com");
+            var from = new EmailAddress("YOUR-EMAIL");
             var to = new EmailAddress(email);
             var msg = MailHelper.CreateSingleEmail(from, to, subject, "", htmlMessage);
 
