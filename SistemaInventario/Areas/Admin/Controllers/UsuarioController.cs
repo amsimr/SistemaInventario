@@ -1,9 +1,14 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SistemaInventario.AccesoDatos.Data;
+using SistemaInventario.Utilidades;
+using System.Data;
 
 namespace SistemaInventario.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = DS.Role_Admin)]
+
     public class UsuarioController : Controller
     {
         private readonly ApplicationDbContext _db;
@@ -70,4 +75,7 @@ namespace SistemaInventario.Areas.Admin.Controllers
 
 
     }
+
+
+
 }
