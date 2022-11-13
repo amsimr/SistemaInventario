@@ -16,5 +16,10 @@ namespace SistemaInventario.AccesoDatos.Data
         public DbSet<Marca> Marca { get; set; }
         public DbSet<Producto> Productos { get; set; }
         public DbSet<UsuarioAplicacion> UsuarioAplicacions { get; set; }
+        public DbSet<BodegaProducto> BodegaProducto { get; set; }
+        public DbSet<Inventario> Inventario { get; set; }
+        public DbSet<InventarioDetalle> InventarioDetalle { get; set; }
+
+
     }
 }
