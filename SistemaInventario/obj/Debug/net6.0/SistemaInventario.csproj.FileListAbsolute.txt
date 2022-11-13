@@ -1500,6 +1500,8 @@ H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\n
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\NuGet.ProjectModel.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\NuGet.Protocol.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\NuGet.Versioning.dll
+H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\SendGrid.dll
+H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\StarkbankEcdsa.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\System.Composition.AttributedModel.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\System.Composition.Convention.dll
 H:\Proyectos ASP\Primer proyecto\SistemaInventario\SistemaInventario\bin\Debug\net6.0\System.Composition.Hosting.dll
