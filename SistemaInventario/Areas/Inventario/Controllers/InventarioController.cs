@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using SistemaInventario.AccesoDatos.Data;
+using SistemaInventario.Modelos.ViewModels;
 using SistemaInventario.Utilidades;
 
 namespace SistemaInventario.Areas.Inventario.Controllers
@@ -11,6 +13,9 @@ namespace SistemaInventario.Areas.Inventario.Controllers
     public class InventarioController : Controller
     {
         private readonly ApplicationDbContext _db;
+
+        [BindProperty]
+        public InventarioViewModel inventarioVM { get; set; }
 
         public InventarioController(ApplicationDbContext db)
         {
@@ -23,6 +28,30 @@ namespace SistemaInventario.Areas.Inventario.Controllers
         }
 
 
+        public IActionResult NuevoInventario(int? inventarioId)
+        {
+            inventarioVM = new InventarioViewModel();
+            inventarioVM.BodegaLista = _db.Bodegas.ToList().Select(b => new SelectListItem
+            {
+                Text = b.Nombre,
+                Value = b.Id.ToString()
+            });
+            inventarioVM.ProductoLista = _db.Productos.ToList().Select(p => new SelectListItem
+            {
+                Text = p.Descripcion,
+                Value = p.Id.ToString()
+            });
+
+
+            if (inventarioId!=null)
+            {
+                inventarioVM.Inventario = _db.Inventario.SingleOrDefault(i => i.Id == inventarioId);
+                inventarioVM.InventarioDetalles = _db.InventarioDetalle.Include(p => p.Producto).ToList();
+            }
+
+            return View(inventarioVM);
+
+        }
 
 
         #region API
