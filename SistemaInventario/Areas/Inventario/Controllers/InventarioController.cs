@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.Build.ObjectModelRemoting;
 using Microsoft.EntityFrameworkCore;
 using SistemaInventario.AccesoDatos.Data;
 using SistemaInventario.Modelos;
@@ -115,6 +116,37 @@ namespace SistemaInventario.Areas.Inventario.Controllers
         }
 
 
+        // Boton agregar mas
+        public IActionResult Mas(int Id)
+        {
+            inventarioVM = new InventarioViewModel();
+            var detalle = _db.InventarioDetalle.FirstOrDefault(d => d.Id == Id);
+            inventarioVM.Inventario = _db.Inventario.FirstOrDefault(i => i.Id == detalle.InventarioId);
+
+            detalle.Cantidad += 1;
+            _db.SaveChanges();
+            return RedirectToAction("NuevoInventario", new { inventarioId = inventarioVM.Inventario.Id });
+        }
+
+        // Boton disminuir
+        public IActionResult Menos(int Id)
+        {
+            inventarioVM = new InventarioViewModel();
+            var detalle = _db.InventarioDetalle.FirstOrDefault(d => d.Id == Id);
+            inventarioVM.Inventario = _db.Inventario.FirstOrDefault(i => i.Id == detalle.InventarioId);
+            if (detalle.Cantidad==1)
+            {
+                _db.InventarioDetalle.Remove(detalle);
+                _db.SaveChanges();
+            }
+            else
+            {
+                detalle.Cantidad -= 1;
+                _db.SaveChanges();
+            }
+            return RedirectToAction("NuevoInventario", new { inventarioId = inventarioVM.Inventario.Id });
+
+        }
 
 
         #region API

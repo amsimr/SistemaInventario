@@ -74,6 +74,9 @@
                 <th style="text-align:right;">
                     Cantidad
                 </th>
+                <th>
+
+                </th>
             </tr>
         </thead>
 
@@ -96,6 +99,14 @@
                     </td>
                     <td style="font-size:14px;text-align:right;color:blue;font-weight:bold;">
                         @Html.DisplayFor(m => item.Cantidad)
+                    </td>
+                    <td>
+                        <a class="btn btn-primary text-white" asp-action="Mas" asp-route-Id="@item.Id">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                        <a class="btn btn-dark text-white" asp-action="Menos" asp-route-Id="@item.Id">
+                            <i class="fas fa-minus"></i>
+                        </a>
                     </td>
                 </tr>
             }
