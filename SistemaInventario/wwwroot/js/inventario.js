@@ -12,7 +12,7 @@ function loadDataTable() {
         "columns": [
             { "data": "bodega.nombre", "width": "20%" },
             { "data": "producto.descripcion", "width": "30%" },
-            { "data": "producto.costo", "width": "10%", "className": "text-right" 
+            { "data": "producto.costo", "width": "10%", "className": "text-right" }, 
             { "data": "cantidad", "width": "10%", "className": "text-right" }            
             
         ]
