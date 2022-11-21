@@ -112,11 +112,22 @@
             }
         </tbody>
 
+        <!-- Fin Tbody-->
+
     </table>
 </div>
 
 
-
+@if(Model.InventarioDetalles.Count>0)
+{
+    <div class="align-content-lg-center">
+        <div class="col-2">
+            <a asp-action="GenerarStock" class="btn btn-warning form-control" asp-route-Id="@Model.Inventario.Id">
+                <i class="fas fa-save"></i> Generar Stock
+            </a>
+        </div>
+    </div>
+}
 
 
 

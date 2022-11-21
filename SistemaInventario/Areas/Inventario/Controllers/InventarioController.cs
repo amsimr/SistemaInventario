@@ -149,6 +149,45 @@ namespace SistemaInventario.Areas.Inventario.Controllers
         }
 
 
+
+
+        // Generar Stock
+        public IActionResult GenerarStock(int Id)
+        {
+            var inventario = _db.Inventario.FirstOrDefault(i => i.Id == Id);
+            var detalleLista = _db.InventarioDetalle.Where(d => d.InventarioId == Id);
+
+            foreach (var item in detalleLista)
+            {
+                var bodegaProducto = _db.BodegaProducto.Include(p => p.Producto).FirstOrDefault(b => b.ProductoId == item.ProductoId &&
+                                                                                                    b.BodegaId == inventario.BodegaId);
+
+                if (bodegaProducto!=null)
+                {
+                    bodegaProducto.Cantidad += item.Cantidad;
+
+                }
+                else
+                {
+                    bodegaProducto = new BodegaProducto();
+                    bodegaProducto.BodegaId = inventario.BodegaId;
+                    bodegaProducto.ProductoId = item.ProductoId;
+                    bodegaProducto.Cantidad = item.Cantidad;
+                    _db.BodegaProducto.Add(bodegaProducto);
+                }
+
+            }
+
+            // Actualizar la cabecera de inventario
+            inventario.Estado = true;
+            inventario.FechaFinal = DateTime.Now;
+            _db.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
+
+
+
+
         #region API
 
         [HttpGet]
