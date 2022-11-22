@@ -227,6 +227,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xIb21lXFByaXZhY3kuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[H:/Proyectos ASP/Primer proyecto/SistemaInventario/SistemaInventario/Areas/Inventario/Views/Inventario/DetalleHistorial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xJbnZlbnRhcmlvXERldGFsbGVIaXN0b3JpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/Proyectos ASP/Primer proyecto/SistemaInventario/SistemaInventario/Areas/Inventario/Views/Inventario/Historial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xJbnZlbnRhcmlvXEhpc3RvcmlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [H:/Proyectos ASP/Primer proyecto/SistemaInventario/SistemaInventario/Areas/Inventario/Views/Inventario/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xJbnZlbnRhcmlvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

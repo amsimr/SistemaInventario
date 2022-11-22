@@ -188,6 +188,24 @@ namespace SistemaInventario.Areas.Inventario.Controllers
 
 
 
+
+        // Historial
+        public IActionResult Historial()
+        {
+            return View();
+        }
+
+
+
+        // Detalle Historial
+        public IActionResult DetalleHistorial(int id)
+        {
+            var detalleHistorial = _db.InventarioDetalle.Include(p => p.Producto).Include(m => m.Producto.Marca).Where(d => d.InventarioId == id);
+            return View(detalleHistorial);
+        }
+
+
+
         #region API
 
         [HttpGet]
@@ -197,6 +215,12 @@ namespace SistemaInventario.Areas.Inventario.Controllers
             return Json(new {data = todos});
         }
 
+        [HttpGet]
+        public IActionResult ObtenerHistorial()
+        {
+            var todos = _db.Inventario.Include(b => b.Bodega).Include(u => u.UsuarioAplicacion).Where(i => i.Estado == true).ToList();
+            return Json(new {data = todos});
+        }
         #endregion
 
 
