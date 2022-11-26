@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "n4FAQOoyUDXQtvyUj/6hrmMxVksu/IftsDKsmOV/m/k=",
+  "Hash": "CvYkmtBTY/uwKeKW3O+rLEQmcpcpamYQvAddlFqF1X4=",
   "Source": "SistemaInventario",
   "BasePath": "_content/SistemaInventario",
   "Mode": "Default",
@@ -1205,6 +1205,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\categoria.js"
+    },
+    {
+      "Identity": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\compania.js",
+      "SourceId": "SistemaInventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\wwwroot\\",
+      "BasePath": "_content/SistemaInventario",
+      "RelativePath": "js/compania.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\compania.js"
     },
     {
       "Identity": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\historial.js",
