@@ -17,6 +17,11 @@ namespace SistemaInventario.AccesoDatos.Repositorio
         public IProductoRepositorio Producto { get; private set; }
         public IUsuarioAplicacionRepositorio UsuarioAplicacion { get; private set; }
         public ICompaniaRepositorio Compania { get; private set; }
+        public ICarroComprasRepositorio CarroCompras { get; private set; }
+        public IOrdenRepositorio Orden { get; private set; }
+        public IOrdenDetalleRepositorio OrdenDetalle { get; private set; }
+
+
 
         public UnidadTrabajo(ApplicationDbContext db)
         {
@@ -27,6 +32,10 @@ namespace SistemaInventario.AccesoDatos.Repositorio
             Producto = new ProductoRepositorio(_db);
             UsuarioAplicacion = new UsuarioAplicacionRepositorio(_db);
             Compania = new CompaniaRepositorio(_db);
+            CarroCompras = new CarroComprasRepositorio(_db);
+            Orden = new OrdenRepositorio(_db);
+            OrdenDetalle = new OrdenDetalleRepositorio(_db);
+
         }
 
         public void Guardar()

@@ -14,6 +14,9 @@ namespace SistemaInventario.AccesoDatos.Repositorio.IRepositorio
         IProductoRepositorio Producto { get; }
         IUsuarioAplicacionRepositorio UsuarioAplicacion { get; }
         ICompaniaRepositorio Compania { get; }
+        ICarroComprasRepositorio CarroCompras { get; }
+        IOrdenRepositorio Orden { get; }
+        IOrdenDetalleRepositorio OrdenDetalle { get; }
 
         void Guardar();
     }
