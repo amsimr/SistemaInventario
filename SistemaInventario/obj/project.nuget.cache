@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X2vsrZMyqLCcQB9JAaArOOPI0yM9aGmsPXGYvHIVPS9cKgBd2yAA3mk6MlmbZR3lCFunl6l840qslt+iJQHNCw==",
+  "dgSpecHash": "YI4qUe6PqF09//mOjb8pzVA9rF8j5P5YaG73m7qA6BvLHH6f++6nXkfZwDOMuih0BAwGipIbh3A/UdqC32D/lg==",
   "success": true,
-  "projectFilePath": "H:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.csproj",
+  "projectFilePath": "E:\\Proyectos ASP\\Primer proyecto\\SistemaInventario\\SistemaInventario\\SistemaInventario.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\XC\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\XC\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
